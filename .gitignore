@@ -1,0 +1,45 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# Virtual Environment
+venv/
+env/
+
+# Django
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+*.sqlite3-journal
+
+# Migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Environment Variables
+.env
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Static and Media Files
+staticfiles/
+media/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
